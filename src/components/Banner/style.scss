@@ -1,0 +1,60 @@
+#banner {
+  width: 100%;
+  height:calc(100vh - 56px);
+  background-image: url('./image/bannerBackground01.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto{
+  width: 250px;
+  height: 300px;
+  background-image: url('./image/myPhoto.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  
+}
+
+#banner .banner-text{
+  color: #fff;
+  filter: drop-shadow(2px 2px 2px #000);
+  text-align: center;
+  width: 50%;
+}
+
+#banner .banner-text h2 {
+  font-size: 50px;
+}
+
+#banner .banner-text p {
+  font-size: 20px;
+}
+
+
+@media (max-width: 375px) {
+
+  .foto {
+    width: 125px;
+    height: 150px;
+  }
+
+  #banner .banner-text h2 {
+    font-size: 30px;
+  }
+  
+  #banner .banner-text p {
+    font-size: 14px;
+  }
+  
+  
+}
+
