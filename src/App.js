@@ -1,8 +1,21 @@
 import './App.css';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import Projetos from './components/Projetos';
+import Footer from './components/Footer';
+
+
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+    <Header/>
+    <main>
+      <Banner/>
+      <Projetos/>
+    </main>
+    <Footer/>
+    </>
   );
 }
 
