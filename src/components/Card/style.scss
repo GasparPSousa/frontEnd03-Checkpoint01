@@ -1,0 +1,71 @@
+:root {
+  --cor-auxiliar: #EBB359;
+  --cor-neon: #228dff8f;
+}
+
+.grid-item {
+  display: flex;
+  height: 720px;
+  width: 320px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  // background-color:cornflowerblue;
+  border-radius: 20px;
+  padding: 15px 0;
+  margin-bottom: 40px;
+  border: 1px solid #e7e7e7;
+
+  .titulo {
+    color: #e7e7e7;
+
+    &:hover{
+      color: #228dff8f;
+      transform: scale(1.3);
+      transition: 0.5s ease;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+    cursor: pointer;
+    animation: card-neon 1s ease-in-out infinite alternate;
+  }
+}
+
+// .titulo {
+//   color: #e7e7e7;
+// }
+
+.titulo:hover {
+  color: red;
+}
+
+.grid-item .imagem a img {
+  height: 620px;
+  width: 280px;
+  border-radius: 10%;
+  padding: 15px 0;
+  text-align: center;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #e7e7e7;
+}
+
+.github{
+  width: 30%;
+}
+
+
+@keyframes card-neon {
+  from {
+    box-shadow: 0 0 5px rgba(204, 194, 194, 0.644), 0 0 15px rgba(255, 255, 255, 0.644), 0 0 25px rgba(255, 255, 255, 0.644), 0 0 35px var(--cor-neon), 0 0 65px var(--cor-neon), 0 0 75px var(--cor-neon), 0 0 85px var(--cor-neon), 0 0 95px var(--cor-neon);
+  }
+  to {
+    box-shadow: 0 0 0px rgba(255, 255, 255, 0.644), 0 0 5px rgba(255, 255, 255, 0.644), 0 0 10px rgba(255, 255, 255, 0.644), 0 0 13px var(--cor-neon), 0 0 27px var(--cor-neon), 0 0 35px var(--cor-neon), 0 0 45px var(--cor-neon), 0 0 60px var(--cor-neon);
+  }
+}

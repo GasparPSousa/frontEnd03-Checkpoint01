@@ -40,6 +40,23 @@
 }
 
 
+@media (max-width: 1400px) {
+
+  .foto{
+    width: 175px;
+    height: 210px;
+  }
+
+  #banner .banner-text h2 {
+    font-size: 40px;
+  }
+  
+  #banner .banner-text p {
+    font-size: 17px;
+  }
+}
+
+
 @media (max-width: 375px) {
 
   .foto {
@@ -57,4 +74,6 @@
   
   
 }
+
+
 
