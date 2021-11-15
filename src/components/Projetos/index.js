@@ -4,6 +4,7 @@ import './style.scss';
 import carrosDeLuxoMobile from '../Projetos/image/carrosDeLuxoMobile.png';
 import toDoListMobile from '../Projetos/image/toDoListMobile.png';
 import olimpifyMobile from '../Projetos/image/olimpifyMobile.png';
+import valorantMobile from '../Projetos/image/valorantMobile.png';
 
 export default class Projetos extends Component {
 
@@ -30,6 +31,13 @@ export default class Projetos extends Component {
         linkGitHub: 'https://github.com/Larissa-Nunes/olimpify',
         linkSite: 'https://larissa-nunes.github.io/olimpify/',
         id:3
+      },
+      {
+        titulo: 'Valorant',
+        imagem: valorantMobile,
+        linkGitHub: 'https://github.com/GasparPSousa/frontEnd-aula06',
+        linkSite: 'https://front-end-aula06-gaspar.vercel.app/',
+        id:4
       },
 
     ]};
