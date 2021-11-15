@@ -34,13 +34,9 @@
   }
 }
 
-// .titulo {
-//   color: #e7e7e7;
-// }
 
-.titulo:hover {
-  color: red;
-}
+
+
 
 .grid-item .imagem a img {
   height: 620px;
@@ -58,6 +54,19 @@ a {
 
 .github{
   width: 30%;
+}
+
+@media (max-width:360px) {
+  
+  .grid-item {
+    width: 290px;
+
+    &:hover {
+      transform: scale(0.9);
+    }
+  }
+
+  
 }
 
 

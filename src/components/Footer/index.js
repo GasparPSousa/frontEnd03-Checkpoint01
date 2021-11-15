@@ -39,7 +39,7 @@ const Footer = () => {
             </li>
           </ul>
          
-          <p class="text-center text-muted">© 2021    Gaspar</p>
+          <p class="text-center text-muted">© 2021 - Gaspar P. de Sousa</p>
         </footer> 
       </div>
     )
